@@ -1,0 +1,33 @@
+<?xml version= "1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <localRepository>/var/lib/jenkins/.m2/repository</localRepository>
+  <servers>
+    <server>
+      <id>nexus</id>
+      <username>admin</username>
+      <password>{5BTzb8WSBgoHNAiVnNkPwMk+vDJ2I6zQ9ai671RWAho=}</password>
+    </server>
+  </servers>
+
+  <mirrors>
+    <mirror>
+      <name>nexus</name>
+      <id>nexus</id>
+        <url>http://http://18.204.211.177:8081/repository/job-project</url>
+    <mirrorOf>*</mirrorOf>
+    </mirror>
+  </mirrors>
+</settings>
+
+
+
+
+
+5BTzb8WSBgoHNAiVnNkPwMk+vDJ2I6zQ9ai671RWAho=
+
+
+<?xml version= "1.0"?>
+<settingsSecurity>
+    <master>{87Sgnr/tnnsHudyk6+zCJcVIwDoLsoFhDTahwxQ8li4=}</master>
+<settingsSecurity>
