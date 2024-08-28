@@ -1,0 +1,4 @@
+
+  -Dsonar.projectKey=javawebapp \
+  -Dsonar.host.url=http://34.230.42.219:9000 \
+  -Dsonar.login=91311e6701d1aee1f77e759784d48ece8a679650
